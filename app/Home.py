@@ -1,9 +1,14 @@
+import os
+
 import streamlit as st
-from app.assets.Modulo2Web import Visualizador
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from app.assets.Modulo2Web import Modulo2Web
 
 st.set_page_config(page_title="Interfaz M2 AgroIA", layout="wide", page_icon="📊")
 
-visualizador = Visualizador()
+visualizador = Modulo2Web()
 
 st.markdown('# AgroIA: Asistente Inteligente para el cultivo de la papa en Cartago, Costa Rica')
 st.markdown('#### AgroIA es un sistema inteligente en Python que apoya a agricultores en Costa Rica. '
