@@ -10,4 +10,4 @@ modelo_rnn = rnn(base_path)
 ruta_archivo = os.path.join(base_path, "data", "raw", "dataset_prueba_rnn.csv")
 
 
-prediccion = modelo_rnn.predecir_archivo(ruta_archivo)
+prediccion = modelo_rnn.predecir_df(ruta_archivo)
