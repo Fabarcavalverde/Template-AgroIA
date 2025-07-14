@@ -3,7 +3,7 @@ Uso del pipeline de procesamiento.
 """
 
 import os
-from src.pipeline_procesamiento import PipelineProcesamiento
+from src.PipelineProcesamiento import PipelineProcesamiento
 
 
 def main():

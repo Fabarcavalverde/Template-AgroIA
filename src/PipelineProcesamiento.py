@@ -8,9 +8,9 @@ import logging
 from typing import Optional, Dict, Any
 from datetime import datetime
 
-from src.procesador_datos_papa import ProcesadorDatosPapa
-from src.procesador_datos_atmosfericos import ProcesadorDatosAtmosfericos
-from src.merge_datos_papa_atmosfericos import MergeDatosPapaAtmosfericos
+from src.ProcesadorDatosPapa import ProcesadorDatosPapa
+from src.ProcesadorDatosAtmosfericos import ProcesadorDatosAtmosfericos
+from src.MergeDatosPapaAtmosfericos import MergeDatosPapaAtmosfericos
 
 
 class PipelineProcesamiento:
