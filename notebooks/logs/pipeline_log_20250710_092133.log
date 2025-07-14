@@ -1,0 +1,20 @@
+2025-07-10 09:21:33,446 - src.pipeline_procesamiento - INFO - Pipeline inicializado correctamente
+2025-07-10 09:21:33,446 - src.pipeline_procesamiento - INFO - === INICIANDO PIPELINE COMPLETO ===
+2025-07-10 09:21:33,451 - src.pipeline_procesamiento - INFO - Validación de archivos de entrada completada
+2025-07-10 09:21:33,451 - src.pipeline_procesamiento - INFO - Iniciando procesamiento de datos de papa
+2025-07-10 09:21:33,519 - src.procesador_datos_papa - INFO - Procesando 21 hojas del archivo Excel
+2025-07-10 09:21:34,406 - src.procesador_datos_papa - INFO - Procesamiento completado: 1260 registros
+2025-07-10 09:21:34,406 - src.pipeline_procesamiento - INFO - Procesamiento de datos de papa completado
+2025-07-10 09:21:34,406 - src.pipeline_procesamiento - INFO - Iniciando procesamiento de datos atmosféricos
+2025-07-10 09:21:34,406 - src.procesador_datos_atmosfericos - INFO - Procesando 5 archivos CSV
+2025-07-10 09:21:34,538 - src.procesador_datos_atmosfericos - INFO - Se procesaron exitosamente 5 de 5 archivos
+2025-07-10 09:21:34,538 - src.pipeline_procesamiento - INFO - Procesamiento de datos atmosféricos completado
+2025-07-10 09:21:34,538 - src.pipeline_procesamiento - INFO - Iniciando fusión de datos
+2025-07-10 09:21:34,631 - src.merge_datos_papa_atmosfericos - INFO - Datos cargados - Clima: 1260 filas, Papa: 1260 filas
+2025-07-10 09:21:34,652 - src.merge_datos_papa_atmosfericos - INFO - Fusión completada:
+2025-07-10 09:21:34,663 - src.merge_datos_papa_atmosfericos - INFO -   - Filas originales: 1260
+2025-07-10 09:21:34,679 - src.merge_datos_papa_atmosfericos - INFO -   - Filas fusionadas: 1260
+2025-07-10 09:21:34,683 - src.merge_datos_papa_atmosfericos - INFO -   - Filas con datos climáticos: 1260
+2025-07-10 09:21:34,683 - src.pipeline_procesamiento - INFO - Fusión completada
+2025-07-10 09:21:34,683 - src.pipeline_procesamiento - INFO - === PIPELINE COMPLETADO EXITOSAMENTE ===
+2025-07-10 09:21:34,683 - src.pipeline_procesamiento - INFO - Tiempo total: 0:00:01.237652

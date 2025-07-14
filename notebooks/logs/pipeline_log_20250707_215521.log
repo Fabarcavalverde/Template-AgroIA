@@ -1,0 +1,21 @@
+2025-07-07 21:55:21,591 - src.PipelineProcesamiento - INFO - Pipeline inicializado correctamente
+2025-07-07 21:55:21,593 - src.PipelineProcesamiento - INFO - === INICIANDO PIPELINE COMPLETO ===
+2025-07-07 21:55:21,594 - src.PipelineProcesamiento - INFO - Validación de archivos de entrada completada
+2025-07-07 21:55:21,594 - src.PipelineProcesamiento - INFO - Iniciando procesamiento de datos de papa
+2025-07-07 21:55:21,624 - src.ProcesadorDatosPapa - INFO - Procesando 21 hojas del archivo Excel
+2025-07-07 21:55:22,145 - src.ProcesadorDatosPapa - INFO - Procesamiento completado: 1260 registros
+2025-07-07 21:55:22,146 - src.PipelineProcesamiento - INFO - Procesamiento de datos de papa completado
+2025-07-07 21:55:22,148 - src.PipelineProcesamiento - INFO - Iniciando procesamiento de datos atmosféricos
+2025-07-07 21:55:22,149 - src.ProcesadorDatosAtmosfericos - INFO - Procesando 5 archivos CSV
+2025-07-07 21:55:22,214 - src.ProcesadorDatosAtmosfericos - INFO - Se procesaron exitosamente 5 de 5 archivos
+2025-07-07 21:55:22,216 - src.PipelineProcesamiento - INFO - Procesamiento de datos atmosféricos completado
+2025-07-07 21:55:22,217 - src.PipelineProcesamiento - INFO - Iniciando fusión de datos
+2025-07-07 21:55:22,273 - src.MergeDatosPapaAtmosfericos - INFO - Datos cargados - Clima: 1260 filas, Papa: 1260 filas
+2025-07-07 21:55:22,283 - src.MergeDatosPapaAtmosfericos - INFO - Fusión completada:
+2025-07-07 21:55:22,284 - src.MergeDatosPapaAtmosfericos - INFO -   - Filas originales: 1260
+2025-07-07 21:55:22,285 - src.MergeDatosPapaAtmosfericos - INFO -   - Filas fusionadas: 1260
+2025-07-07 21:55:22,287 - src.MergeDatosPapaAtmosfericos - INFO -   - Filas con datos climáticos: 1260
+2025-07-07 21:55:22,289 - src.PipelineProcesamiento - INFO - Fusión completada
+2025-07-07 21:55:22,290 - src.PipelineProcesamiento - INFO - === PIPELINE COMPLETADO EXITOSAMENTE ===
+2025-07-07 21:55:22,291 - src.PipelineProcesamiento - INFO - Tiempo total: 0:00:00.696754
+2025-07-07 21:55:22,292 - src.PipelineProcesamiento - ERROR - Error en pipeline completo: name 'ruta_final' is not defined

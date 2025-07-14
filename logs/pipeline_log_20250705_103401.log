@@ -1,0 +1,21 @@
+2025-07-05 10:34:01,576 - src.pipeline_procesamiento - INFO - Pipeline inicializado correctamente
+2025-07-05 10:34:01,576 - src.pipeline_procesamiento - INFO - === INICIANDO PIPELINE COMPLETO ===
+2025-07-05 10:34:01,576 - src.pipeline_procesamiento - INFO - Validación de archivos de entrada completada
+2025-07-05 10:34:01,576 - src.pipeline_procesamiento - INFO - Iniciando procesamiento de datos de papa
+2025-07-05 10:34:01,604 - src.procesador_datos_papa - INFO - Procesando 21 hojas del archivo Excel
+2025-07-05 10:34:02,096 - src.procesador_datos_papa - INFO - Procesamiento completado: 1260 registros
+2025-07-05 10:34:02,101 - src.pipeline_procesamiento - INFO - Procesamiento de datos de papa completado
+2025-07-05 10:34:02,101 - src.pipeline_procesamiento - INFO - Iniciando procesamiento de datos atmosféricos
+2025-07-05 10:34:02,102 - src.procesador_datos_atmosfericos - INFO - Procesando 5 archivos CSV
+2025-07-05 10:34:02,145 - src.procesador_datos_atmosfericos - INFO - Se procesaron exitosamente 5 de 5 archivos
+2025-07-05 10:34:02,145 - src.pipeline_procesamiento - INFO - Procesamiento de datos atmosféricos completado
+2025-07-05 10:34:02,147 - src.pipeline_procesamiento - INFO - Iniciando fusión de datos
+2025-07-05 10:34:02,193 - src.merge_datos_papa_atmosfericos - INFO - Datos cargados - Clima: 1260 filas, Papa: 1260 filas
+2025-07-05 10:34:02,199 - src.merge_datos_papa_atmosfericos - INFO - Fusión completada:
+2025-07-05 10:34:02,199 - src.merge_datos_papa_atmosfericos - INFO -   - Filas originales: 1260
+2025-07-05 10:34:02,199 - src.merge_datos_papa_atmosfericos - INFO -   - Filas fusionadas: 1260
+2025-07-05 10:34:02,199 - src.merge_datos_papa_atmosfericos - INFO -   - Filas con datos climáticos: 1260
+2025-07-05 10:34:02,200 - src.pipeline_procesamiento - INFO - Fusión completada
+2025-07-05 10:34:02,216 - src.pipeline_procesamiento - INFO - === PIPELINE COMPLETADO EXITOSAMENTE ===
+2025-07-05 10:34:02,216 - src.pipeline_procesamiento - INFO - Tiempo total: 0:00:00.640173
+2025-07-05 10:34:02,216 - src.pipeline_procesamiento - INFO - Archivo final: data/processed\rnn_df.csv
