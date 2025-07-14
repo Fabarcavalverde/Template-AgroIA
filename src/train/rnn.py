@@ -15,7 +15,7 @@ from tensorflow.keras.models import load_model
 from keras.losses import mean_squared_error
 
 class RNNProduccion:
-    def __init__(self, ruta_base: str):
+    def __init__(self, ruta_base):
         self.ventana_tiempo = 3
         self.columnas_features = [
             'area', 'PRECTOTCORR_SUM', 'RH2M', 'T2M', 'T2MDEW',
